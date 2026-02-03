@@ -1,3 +1,1 @@
-$>./count_files.sh | cat-e
-42$
-$>
+ls -l | grep -v '^total' | wc -l
